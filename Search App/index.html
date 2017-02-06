@@ -1,23 +1,39 @@
 <html>
+
 <head>
-    <title>Search App</title>  
-      <link href="app/css/bootstrap.min.css" rel="stylesheet">
-      <script src="app/lib/jquery.min.js" type="text/javascript"></script>
-      <script src="app/lib/bootstrap.min.js" type="text/javascript"></script>
-      <script src="app/lib/angular.min.js" type="text/javascript"></script>
+  <title>Search App</title>
+  <link href="app/css/bootstrap.min.css" rel="stylesheet">
+  <script src="app/lib/jquery.min.js" type="text/javascript"></script>
+  <script src="app/lib/bootstrap.min.js" type="text/javascript"></script>
+  <script src="app/lib/angular.min.js" type="text/javascript"></script>
   <script src="app/js/app.js" type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+  <link href="app/css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body ng-app="SearchApp">
-  <div >
-    <div></div>
-    <div></div>
+  <div class="header">
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-  <div ng-controller="TestCtrl">
-    <input type="text" ng-model="title">
-    {{title}}
+  <div class="middle">
+
   </div>
-  <div>
-  
+  <div class="footer">
+
   </div>
 </body>
+
 </html>
