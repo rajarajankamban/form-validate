@@ -1,0 +1,42 @@
+{
+  "restaurant": [
+    {
+      "name": "Paradise",
+      "place": "Gachibowli",
+      "rating": "4.0",
+      "foodItem": [
+        {
+          "name": "Briyani",
+          "type": "NV",
+          "price": "220",
+          "imgSource": "/images/image1.jpg"
+        },
+        {
+          "name": "Veg Briyani",
+          "type": "NV",
+          "price": "150",
+          "imgSource": "/images/image2.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Bawarchi",
+      "place": "Gachibowli",
+      "rating": "4.1",
+      "foodItem": [
+        {
+          "name": "Briyani",
+          "type": "NV",
+          "price": "210",
+          "imgSource": "/images/image3.jpg"
+        },
+        {
+          "name": "Veg Briyani",
+          "type": "NV",
+          "price": "140",
+          "imgSource": "/images/image4.jpg"
+        }
+      ]
+    }
+  ]
+}
