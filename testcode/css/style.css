@@ -58,7 +58,7 @@ body{
     margin: 13px 13px;
     border-radius: 3px;
     background-color: #f9f9f9;
-    width: 30%;
+    width: auto;
   height: 111px;
 }
 
@@ -86,3 +86,4 @@ body{
     white-space: nowrap;
       text-overflow: ellipsis;
 }
+
