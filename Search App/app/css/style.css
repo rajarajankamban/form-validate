@@ -33,18 +33,32 @@ a:hover{text-decoration: none;color:#333; cursor:pointer;}
   
 }
 .hungry-list-item{
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 -webkit-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
 -moz-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
 box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
   height: 150px
 }
-.hungry-list-breadcrum{
-  height: 100%;
+
+.hungry-list-breadcrum,.hungry-bill-summary{  
 -webkit-box-shadow: 0px 0px 30px 0px rgba(181,181,181,1);
 -moz-box-shadow: 0px 0px 30px 0px rgba(181,181,181,1);
   box-shadow: 0px 0px 30px 0px rgba(181,181,181,1);
+   position: fixed;
+  padding-left: 0px;
+    padding-right: 0px;
+}
+.hungry-list-breadcrum{
+    left: 12px;
+    width: 16.666%;
+    height: 400px;
+}
+.hungry-bill-summary{
+  height: 300px;
+  right: 10px;
 }
 
 .pb30{padding-bottom: 30px;}
 .pt20{padding-top: 20px;}
+.pt10{padding-top: 10px;}

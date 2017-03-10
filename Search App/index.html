@@ -1,4 +1,4 @@
-<html>
+<html ng-app="iAmHungryApp">
 
 <head>
   <title>Search App</title>
@@ -12,6 +12,7 @@
 </head>
 
 <body ng-app="SearchApp">
+  
   <div class="header">
 
     <nav class="navbar navbar-default">
@@ -28,14 +29,22 @@
       </div>
     </nav>
   </div>
-  <div class="middle" ng-app="iAmHungryApp">
+  <div class="middle" >
     <div class="">
       <div class="container-fluid pb30" ng-controller="hungryList">
-        <div class="col-md-2 hungry-list-breadcrum"></div>
-        <div class="col-md-10 hungry-list" >
-          <div class="col-md-12 hungry-list-item" >
-            
+        <div class="col-md-2">
+          <div class="col-md-2 hungry-list-breadcrum"></div>
+        </div>
+        <div class="col-md-7 hungry-list">
+          <div class="col-md-12 hungry-list-item" ng-repeat="res in resturantList">
+            <div ng-bind="res.name"></div>
+            <div ng-bind="res.place"></div>
+            <div ng-bind="res.rating"></div>
+            <div></div>
           </div>
+        </div>
+        <div class="col-md-3">
+          <div class="col-md-3 hungry-bill-summary"></div>
         </div>
       </div>
     </div>
