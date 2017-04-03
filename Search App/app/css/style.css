@@ -33,12 +33,18 @@ a:hover{text-decoration: none;color:#333; cursor:pointer;}
   
 }
 .hungry-list-item{
-  margin-top: 5px;
-  margin-bottom: 5px;
--webkit-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
--moz-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
-  height: 150px
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
+    box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
+    height: 150px;
+    padding: 15px;
+    border-right: 2pt solid rgba(244, 133, 54, 0.71);
+    border-left: 2pt solid rgba(244, 133, 54, 0.71);
+}
+.hungry-list-item:active{
+    border: 2pt solid rgba(244, 133, 54, 0.71);
 }
 
 .hungry-list-breadcrum,.hungry-bill-summary{  
@@ -58,7 +64,9 @@ box-shadow: 0px 0px 9px 1px rgba(209,207,209,1);
   height: 300px;
   right: 10px;
 }
-
+.rest-img img{
+    width: 190px;
+}
 .pb30{padding-bottom: 30px;}
 .pt20{padding-top: 20px;}
 .pt10{padding-top: 10px;}

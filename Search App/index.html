@@ -37,10 +37,13 @@
         </div>
         <div class="col-md-7 hungry-list">
           <div class="col-md-12 hungry-list-item" ng-repeat="res in resturantList">
-            <div ng-bind="res.name"></div>
-            <div ng-bind="res.place"></div>
-            <div ng-bind="res.rating"></div>
-            <div></div>
+            <div class="rest-img pull-left"><img ng-src="{{res.imgSource}}"></div>
+            <div class="pull-left col-md-8">
+                <div ng-bind="res.name"></div>
+                <div ng-bind="res.place"></div>
+                <div ng-bind="res.rating"></div>
+                <div></div>
+            </div>    
           </div>
         </div>
         <div class="col-md-3">

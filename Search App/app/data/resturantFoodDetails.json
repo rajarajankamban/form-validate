@@ -4,6 +4,7 @@
       "name": "Paradise",
       "place": "Gachibowli",
       "rating": "4.0",
+      "imgSource": "./app/images/food.png",  
       "foodItem": [
         {
           "name": "Briyani",
@@ -60,6 +61,7 @@
       "name": "Bawarchi",
       "place": "Gachibowli",
       "rating": "4.1",
+      "imgSource": "/app/images/food.png",     
       "foodItem": [
          {
           "name": "Briyani",
@@ -133,6 +135,7 @@
       "name": "Bawarchi",
       "place": "Gachibowli",
       "rating": "4.1",
+      "imgSource": "/app/images/food.png",     
       "foodItem": [
          {
           "name": "Briyani",
