@@ -6,17 +6,21 @@ console.log("Enter number :");
 
 var stdin = process.openStdin();
 stdin.addListener("data", function(d) {
-    console.log("Sum of 3 or 5 muliti for "+parseInt(d)+" is :"+multi_sum(parseInt(d)));
+    var data = powerTwo(parseInt(d));
+    console.log("Power of less than or equal to number "+parseInt(d)+" is :"+data.power+" value as "+data.num);
 });
 
 function powerTwo(num){
+    var sum = 0;
+    var i;
+    var data = {"power":"","num":""};
     for(i=1;sum<=num;i++){
         sum = Math.pow(2,i);
-    }
-    if(sum == num){
-        return {'power':i,'num':num};
-    }
-    else{
-        return {'power':i,'num':num};
-    }
+        console.log(" i =" + i + " : "+sum);
+    }   
+        data.power = i-2;
+        data.num = Math.pow(2,i-2);
+        console.log("data :"+JSON.stringify(data));
+        return data;
 }
+
